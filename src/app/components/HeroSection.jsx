@@ -26,8 +26,9 @@ const HeroSection = () => {
                         className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600"
                     />
                 </h1>
-                <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lf:text-xl">
-                Desarrolladora web de la Comunidad Valenciana con gran vocación por la programación y nuevas tecnologías.                </p>
+                <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lf:text-xl italic">
+                "Dreams are extremely important. You can't do it unless you imagine it."
+               </p>
                 <div>
                     <button className="px-6 py-3 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-400 via-purple-500 to-pink-500  hover:bg-slate-200 text-white mr-4">
                         Hire Me
