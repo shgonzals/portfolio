@@ -5,7 +5,7 @@ const projectData = [
     {
         id: 1,
         title: 'API QR Gen',
-        description: 'QR Gen Swagger',
+        description: 'API con UI en Swagger desarrollado en Java 8 con Springbootb',
         image: '/images/projects/1.png',
         tag: ["ALL", "Web"],
         gitUrl: '/',
@@ -13,7 +13,7 @@ const projectData = [
     },{
         id: 2,
         title: 'QR Gen',
-        description: 'Frontend QR Gen en Angular',
+        description: 'Frontend en Angular que generará un QR personalizado utilizando un API.',
         image: '/images/projects/2.png',
         tag: ["ALL", "Web"],
         gitUrl: '/',
@@ -21,7 +21,7 @@ const projectData = [
     },{
         id: 3,
         title: 'Portfolio',
-        description: 'Portfolio en Next.js',
+        description: 'Ha sido creada con Next.js 13.5 + Tailwind CSS 3.3.3.',
         image: '/images/projects/3.png',
         tag: ["ALL", "Web"],
         gitUrl: '/',
