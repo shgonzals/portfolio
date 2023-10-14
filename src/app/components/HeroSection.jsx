@@ -2,6 +2,8 @@
 
 import React from "react";
 import Image from "next/image";
+import '/styles/styles.css';
+
 
 import { TypeAnimation } from "react-type-animation";
 
@@ -11,20 +13,21 @@ const HeroSection = () => {
         <div className="grid grid-cols-1 sm:grid-cols-12">
             <div className="col-span-7 place-self-center text-center sm:text-left">
                 <h1 className="text-white mb-4 text-4xl sm-text-5xl lg:text-6xl font-extrabold">
-                    <span>
-                        Sheila González 
+                    <span className="bg-clip-text ">
+                        Sheila González {" "} 
                     </span>
                     <br/>
                     <TypeAnimation
                         sequence={[
                         'Backend Developer',
-                        1000
+                        1000,
                         ]}
                         wrapper="span"
                         speed={50}
                         repeat={1}
                         className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600"
                     />
+                    <span className="blink degradado">|</span>
                 </h1>
                 <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lf:text-xl italic">
                 &quot;Dreams are extremely important. You can&apos;t do it unless you imagine it.&quot;

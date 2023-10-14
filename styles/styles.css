@@ -1,0 +1,24 @@
+@keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
+  @-webkit-keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
+  
+
+  .degradado {
+    background-image: linear-gradient(45deg, #c084fc, #db2777);
+    background-clip: text;
+    -webkit-background-clip: text; /* Para navegadores WebKit como Safari */
+    color: transparent;
+  }
+  
+
+  .blink {
+    animation: blink-animation 1.25s steps(5, start) infinite;
+    -webkit-animation: blink-animation 1.25s steps(5, start) infinite;  }
+  
