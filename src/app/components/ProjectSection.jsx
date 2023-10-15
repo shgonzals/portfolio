@@ -46,7 +46,7 @@ const ProjectSection = () => {
             <button className='rounded-full border-2 border-white hover:border-pink-500 px-6 py-3 text-xl cursor-pointer'>Web</button>
         </div>
         */}
-        <h2 className='text-center text-4xl font-bold text-white mt-4 mb-4'>
+        <h2 className='text-center top-24 uppercase tracking-[10px] font-semibold text-white text-2xl mb-4'>
             Mis Proyectos
         </h2>
         <div className='grid md:grid-cols-3 gap-8 md-gap-12'>

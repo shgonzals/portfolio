@@ -41,8 +41,8 @@ const AboutSection = () => {
         <div className='md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16'>
             <Image src="/images/about.jpg" className='rounded-xl ' width={500} height={500} alt=''/>
             <div className='mt-4 md:mt-0 text-left flex flex-col h-full'>
-              <h2 className='text-4xl font-semibold text-white mb-4'>Sobre mi</h2>
-              <div className='text-base lg:text-lg'>
+              <h2 className='top-24 uppercase tracking-[10px] font-semibold text-white text-2xl'>Sobre mi</h2>
+              <div className='text-base lg:text-m'>
                 <p>
                 Actualmente desarrollo funcionalidades como backend con Java 8 y Spring Batch para una aplicación refactorizada, en la cual también participo en el análisis de los casos de uso a realizar, basándonos en la aplicación de origen (CA Plex).
                 </p>

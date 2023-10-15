@@ -6,7 +6,7 @@ const buttonClasses = active ? 'text-white border-b border-pink-500': 'text-[#AD
 
   return (
     <button onClick={selectTab}>
-        <p className={`mr-3 font-semibold hover:text-white ${buttonClasses}`}>
+        <p className={`mr-3 font-semibold hover:text-white uppercase ${buttonClasses}`}>
         {children}
         </p>
     </button>

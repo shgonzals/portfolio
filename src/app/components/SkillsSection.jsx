@@ -40,7 +40,7 @@ const skills = [
 const SkillsSection = () => {
   return (
     <div className='mb-20'>
-        <h2 className='text-center text-4xl font-bold text-white mb-4'>
+        <h2 className='text-center top-24 uppercase tracking-[10px] font-semibold text-white text-2xl'>
             Skills
         </h2>
         <div className='flex flex-wrap justify-center mt-6 m-10 relative z-1'>

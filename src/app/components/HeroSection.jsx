@@ -12,7 +12,7 @@ const HeroSection = () => {
     <section>
         <div className="grid grid-cols-1 sm:grid-cols-12">
             <div className="col-span-7 place-self-center text-center sm:text-left">
-                <h1 className="text-white mb-4 text-4xl sm-text-5xl lg:text-6xl font-extrabold">
+                <h1 className="top-24 uppercase tracking-[20px] text-4xl font-semibold text-white">
                     <span className="bg-clip-text ">
                         Sheila González {" "} 
                     </span>
@@ -33,7 +33,7 @@ const HeroSection = () => {
                 &quot;Dreams are extremely important. You can&apos;t do it unless you imagine it.&quot;
                </p>
                 <div className="flex justify-center">
-                    <button className="px-6 py-3 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-400 via-purple-500 to-pink-500  hover:bg-slate-200 text-white mr-4">
+                    <button className="uppercase  tracking-[5px] px-6 py-3 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-400 via-purple-500 to-pink-500  hover:bg-slate-200 text-white mr-4">
                         Descargar CV
                     </button>
                     {/* 

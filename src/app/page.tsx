@@ -5,6 +5,7 @@ import ProjectSection from './components/ProjectSection';
 import EmailSection from './components/EmailSection';
 import Footer from './components/Footer';
 import SkillsSection from './components/SkillsSection';
+import ExperienceSection from './components/ExperienceSection';
 
 export default function Home() {
   return (
@@ -14,6 +15,9 @@ export default function Home() {
         <HeroSection />
         <AboutSection />
         <SkillsSection />
+        <div className="snap-center">
+          <ExperienceSection />
+        </div>        
         <ProjectSection />
         <EmailSection />
       </div>
