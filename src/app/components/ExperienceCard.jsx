@@ -22,10 +22,10 @@ const ExperienceCard = ({src, puesto, empresa, fechas, content, id}) => {
         >
         </motion.img>
 
-        <div className='px-0 md:px-10'>
-            <h4 className='text-2xl font-light'>{puesto}</h4>
-            <p className='font-bold text-xl mt-1'>{empresa}</p>
-            <p className='uppercase py-5 text-gray-300'>
+        <div className='px-0  md:px-10'>
+            <h4 className='lg:text-2xl sm:text-lg font-light'>{puesto}</h4>
+            <p className='font-bold lg:text-xl sm:text-m mt-1'>{empresa}</p>
+            <p className='uppercase py-5 lg:text-s sm:text-s  text-gray-300'>
                 {fechas}
             </p> 
             {content}
