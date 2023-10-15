@@ -32,7 +32,7 @@ const EmailSection = () => {
                         Email
                     </label>
                     <input type="email" id="email" 
-                    className='bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2,5'
+                    className='bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5'
                     required placeholder='sh.gonzal.s@gmail.com'/>
                     
                 </div>
@@ -41,7 +41,7 @@ const EmailSection = () => {
                         Asunto
                     </label>
                     <input type="text" id="subject" 
-                    className='bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2,5'
+                    className='bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5'
                     required placeholder='Me gustaria contactar'/>
                 </div>
                 <div className='mb-6'>
@@ -49,7 +49,7 @@ const EmailSection = () => {
                         Mensaje
                     </label>
                     <textarea type="text" id="message" 
-                    className='bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2,5'
+                    className='bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5'
                     required placeholder='Deja tu mensaje aquí...'/>
                 </div>
                 <button 
