@@ -5,20 +5,6 @@ import TabButton from "./TabButton";
 
 const TAB_DATA = [
   {
-    title: 'Skills',
-    id: 'skills',
-    content: (
-      <ul className='list-disc pl-2'>
-        <li>Java 8</li>
-        <li>Hibernate/JPA</li>
-        <li>API/REST</li>
-        <li>Oracle/SQL - PL/SQL</li>
-        <li>GIT</li>
-        <li>Angular</li>
-        <li>Sencha ExtJS</li>
-      </ul>
-    )
-  },{
     title: 'Certificaciones',
     id: 'certifications',
     content: (
@@ -41,7 +27,7 @@ const TAB_DATA = [
 ];
 
 const AboutSection = () => {
-  const [tab, setTab] = useState("skills");
+  const [tab, setTab] = useState("certifications");
   const [isPending, startTransition] = useTransition();
 
   const handleTabChange = (id) => {
@@ -66,7 +52,6 @@ const AboutSection = () => {
                 </p>  
               </div>
               <div className='flex justify-start flex-row mt-8'>
-                <TabButton selectTab={() => handleTabChange("skills")} active={tab === "skills"}>{" "} Skills {" "}</TabButton>
                 <TabButton selectTab={() => handleTabChange("certifications")} active={tab === "certifications"}>{" "} Certificaciones {" "}</TabButton>
                 <TabButton selectTab={() => handleTabChange("education")} active={tab === "education"}>{" "} Estudios {" "}</TabButton>
               </div>

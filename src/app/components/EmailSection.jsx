@@ -42,7 +42,7 @@ const EmailSection = () => {
                     </label>
                     <input type="text" id="subject" 
                     className='bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2,5'
-                    required placeholder='Just saying hi'/>
+                    required placeholder='Me gustaria contactar'/>
                 </div>
                 <div className='mb-6'>
                     <label htmlFor='message' type="message" className='mb-2 text-white block text-sm font-medium'>
@@ -50,7 +50,7 @@ const EmailSection = () => {
                     </label>
                     <textarea type="text" id="message" 
                     className='bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2,5'
-                    required placeholder='Leave your message here...'/>
+                    required placeholder='Deja tu mensaje aquí...'/>
                 </div>
                 <button 
                 type='submit'
