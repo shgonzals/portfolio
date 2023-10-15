@@ -30,10 +30,10 @@ const HeroSection = () => {
                     />
                     <span className="blink degradado">|</span>
                 </h1>
-                <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lf:text-xl italic">
+                <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 mt-6 sm:mb-6 lf:text-xl italic">
                 &quot;Dreams are extremely important. You can&apos;t do it unless you imagine it.&quot;
                </p>
-                <div className="flex justify-center">
+                <div className="lg:flex lg:justify-center lg:items-center">
                     <button className="uppercase  tracking-[5px] px-6 py-3 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-400 via-purple-500 to-pink-500  hover:bg-slate-200 text-white mr-4">
                         Descargar CV
                     </button>
@@ -44,7 +44,7 @@ const HeroSection = () => {
                     */}
                 </div>
             </div>
-            <div className="col-span-5 flex justify-center items-center ">
+            <div className="col-span-5 flex justify-center items-center mt-6 sm:mt-6 ">
                 <div className="rounded-full bg-[#181818] w-[220px] h-[220px] relative">
                     <Image src="/images/retro.png"
                     alt="hero image"
