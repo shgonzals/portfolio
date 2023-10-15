@@ -26,6 +26,14 @@ const projectData = [
         tag: ["ALL", "Web"],
         gitUrl: '/',
         previewUrl: '/'
+    },{
+        id: 4,
+        title: 'Stock Tracker',
+        description: 'Ha sido creada con Next.js 13.5 + Tailwind CSS 3.3.3.',
+        image: '/images/projects/4.png',
+        tag: ["ALL", "Web"],
+        gitUrl: '/',
+        previewUrl: '/'
     }
 ];
 
