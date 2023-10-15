@@ -87,7 +87,7 @@ const ExperienceSection = () => {
     max-w-full px-10  justify-evenly mx-auto items-center'>
         <h3 className='absolute top-1 uppercase tracking-[10px] font-semibold text-white text-2xl'>Experiencia</h3>    
 
-        <div className='w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory 
+        <div className='w-full flex space-x-5 overflow-x-scroll p-8 snap-x snap-mandatory 
         scrollbar scrollbar-track-pink-500/20 scrollbar-thumb-pink-500/80'>
             {DATA.map((d) => <ExperienceCard  key={d.id}
             id={d.id}
