@@ -30,6 +30,10 @@ const skills = [
         id: '7',
         icon: '/images/logos/sencha.svg',
         description: 'ExtJS'
+    },{
+        id: '8',
+        icon: '/images/logos/postman.svg',
+        description: 'Postman'
     }
 ];
 
@@ -39,12 +43,9 @@ const SkillsSection = () => {
         <h2 className='text-center text-4xl font-bold text-white mb-4'>
             Skills
         </h2>
-        
-  <div className='flex flex-wrap justify-center mt-6 m-10 relative z-1'>
-    {skills.map((skill) => <SkillItem key={skill.id} icon={skill.icon} description={skill.description} />)}
-  </div>
-
-
+        <div className='flex flex-wrap justify-center mt-6 m-10 relative z-1'>
+            {skills.map((skill) => <SkillItem key={skill.id} icon={skill.icon} description={skill.description} />)}
+        </div>
     </div>
   )
 }
