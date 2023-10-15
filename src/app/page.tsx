@@ -13,17 +13,23 @@ export default function Home() {
     overflow-x-hidden overflow-y-scroll  snap-mandatory h-screen
     scrollbar scrollbar-track-pink-500/20 scrollbar-thumb-pink-500/80">
       <Navbar />
-      <section className="container mt-24 mx-auto px-12 py-12">
+      <section className="container mt-24 mx-auto px-12 py-12" id="inicio">
         <div className="snap-start mt-10 ">
           <HeroSection />
         </div>
-        <AboutSection />
-        <SkillsSection />
-        <div className="snap-center mb-10">
+       <section id="about">
+          <AboutSection />
+       </section> 
+       <SkillsSection />
+        <div className="snap-center mb-10" id="experience">
           <ExperienceSection />
         </div>        
-        <ProjectSection />
-        <EmailSection />
+        <section id="projects" >
+          <ProjectSection />
+        </section>
+        <section id="contact">
+          <EmailSection />
+        </section>      
       </section>
       <Footer />
     </main>
