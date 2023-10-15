@@ -39,7 +39,7 @@ const projectData = [
 
 const ProjectSection = () => {
   return (
-    <div>
+    <div className='snap-center'>
         {/*
         <div className='text-white flex flex-row justify-center items-center gap-2 py-6'>
             <button className='rounded-full border-2 border-pink-500 px-6 py-3 text-xl cursor-pointer'>All</button>

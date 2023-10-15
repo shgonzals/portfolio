@@ -6,7 +6,7 @@ import Image from 'next/image';
 
 const EmailSection = () => {
   return (
-    <section className='grid md:grid-cols-2 my-12 md:my-12 py-24 gap-4'>
+    <section className='grid md:grid-cols-2 my-12 md:my-12 py-24 gap-4 snap-center'>
         <div>
             <h5 className='top-24 uppercase tracking-[10px] font-semibold text-white text-2xl mb-4'>
                 Let&apos;s Connect

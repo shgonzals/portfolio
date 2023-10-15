@@ -9,18 +9,22 @@ import ExperienceSection from './components/ExperienceSection';
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col bg-[#121212] ">
+    <main className="flex min-h-screen flex-col bg-[#121212] 
+    overflow-x-hidden overflow-y-scroll  snap-mandatory h-screen
+    scrollbar scrollbar-track-pink-500/20 scrollbar-thumb-pink-500/80">
       <Navbar />
-      <div className="container mt-24 mx-auto px-12 py-12">
-        <HeroSection />
+      <section className="container mt-24 mx-auto px-12 py-12">
+        <div className="snap-start mt-10 ">
+          <HeroSection />
+        </div>
         <AboutSection />
         <SkillsSection />
-        <div className="snap-center">
+        <div className="snap-center mb-10">
           <ExperienceSection />
         </div>        
         <ProjectSection />
         <EmailSection />
-      </div>
+      </section>
       <Footer />
     </main>
   )

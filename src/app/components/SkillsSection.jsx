@@ -39,7 +39,7 @@ const skills = [
 
 const SkillsSection = () => {
   return (
-    <div className='mb-20'>
+    <div className='mb-20 snap-center'>
         <h2 className='text-center top-24 uppercase tracking-[10px] font-semibold text-white text-2xl'>
             Skills
         </h2>
