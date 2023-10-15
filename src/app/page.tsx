@@ -14,20 +14,22 @@ export default function Home() {
     scrollbar scrollbar-track-pink-500/20 scrollbar-thumb-pink-500/80">
       <Navbar />
       <section className="container mt-24 mx-auto px-12 py-12" id="inicio">
-        <div className="snap-start mt-10 ">
+        <section className="snap-start lg:mt-10 lg:px-12 sm: px-1 ">
           <HeroSection />
-        </div>
+        </section>
        <section id="about">
           <AboutSection />
        </section> 
-       <SkillsSection />
-        <div className="snap-center mb-10" id="experience">
+       <section className="py-20" id="skills">
+          <SkillsSection />
+        </section>
+        <section className="snap-center mb-10 py-20" id="experience">
           <ExperienceSection />
-        </div>        
-        <section id="projects" >
+        </section>        
+        <section className="py-20" id="projects" >
           <ProjectSection />
         </section>
-        <section id="contact">
+        <section className="py-20" id="contact">
           <EmailSection />
         </section>      
       </section>

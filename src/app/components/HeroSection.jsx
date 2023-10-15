@@ -9,11 +9,11 @@ import { TypeAnimation } from "react-type-animation";
 
 const HeroSection = () => {
   return (
-    <section>
+    <div>
         <div className="grid grid-cols-1 sm:grid-cols-12">
-            <div className="col-span-7 place-self-center text-center sm:text-left">
-                <h1 className="top-24 uppercase tracking-[20px] text-4xl font-semibold text-white">
-                    <span className="bg-clip-text ">
+            <div className="col-span-7 lg:place-self-center sm:place-self-auto sm:m-2 ">
+                <h1 className="top-24 uppercase tracking-[20px] lg:text-4xl lg:text-center sm:text-right font-semibold text-white">
+                    <span className="bg-clip-text">
                         Sheila González {" "} 
                     </span>
                     <br/>
@@ -25,7 +25,8 @@ const HeroSection = () => {
                         wrapper="span"
                         speed={50}
                         repeat={1}
-                        className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600"
+                        className="text-transparent bg-clip-text text-lg sm:text-right bg-gradient-to-r from-purple-400 to-pink-600"
+                        
                     />
                     <span className="blink degradado">|</span>
                 </h1>
@@ -55,7 +56,7 @@ const HeroSection = () => {
                 </div>
             </div>
         </div>
-    </section>
+    </div>
   )
 }
 

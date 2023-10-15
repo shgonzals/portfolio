@@ -11,6 +11,10 @@ const navLinks = [
     path: "#about",
   },
   {
+    title: "Skills",
+    path: "#skills"  
+  },
+  {
     title: "Experiencia",
     path: "#experience"
   },
@@ -34,7 +38,7 @@ const Navbar = () => {
           href={"/"}
           className="text-2xl md:text-5xl text-white font-semibold"
         >
-          <img  src="/images/logo2.png" width={50} height={60}></img>
+          <img src="/images/logo2.png" width={50} height={60} />
         </Link>
         <div className="mobile-menu block md:hidden">
           {!navbarOpen ? (
@@ -57,7 +61,7 @@ const Navbar = () => {
           <ul className="flex p-4 md:p-0 md:flex-row md:space-x-8 mt-0">
             {navLinks.map((link, index) => (
               <li key={index}>
-                <NavLink href={link.path} title={link.title} />
+                <NavLink href={link.path} title={link.title} onClick={() => setNavbarOpen(false)} />
               </li>
             ))}
           </ul>
