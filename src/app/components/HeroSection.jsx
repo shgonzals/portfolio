@@ -25,7 +25,7 @@ const HeroSection = () => {
                         wrapper="span"
                         speed={50}
                         repeat={1}
-                        className="text-transparent bg-clip-text text-lg sm:text-right bg-gradient-to-r from-purple-400 to-pink-600"
+                        className="text-transparent bg-clip-text text-lg sm:text-right bg-gradient-to-r from-primary-400 to-secondary-600"
                         
                     />
                     <span className="blink degradado">|</span>
@@ -35,13 +35,13 @@ const HeroSection = () => {
                </p>
                 <div className="lg:flex lg:justify-center lg:items-center">
                     <button className="uppercase 
-                    tracking-[5px] px-6 py-3 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-400 via-purple-500
-                     to-pink-500  hover:bg-slate-200 text-white mr-4"
+                    tracking-[5px] px-6 py-3 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-400 via-primary-500
+                     to-secondary-500  hover:bg-slate-200 text-white mr-4"
                      >
                        <a href="./docs/CV.pdf" download> Descargar CV </a>
                     </button>
                     {/* 
-                    <button className="px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-400 via-purple-500 to-pink-500 hover:bg-slate-800 text-white mt-3">
+                    <button className="px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-400 via-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3">
                        <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">Download CV</span>
                     </button>
                     */}

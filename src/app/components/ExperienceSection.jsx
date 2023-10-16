@@ -67,7 +67,7 @@ const DATA = [
         empresa: 'Indra Minsait',
         fechas: 'Marzo 2017 - Septiembre 2019',
         content: (
-            <ul className='list-disc space-y-4 ml-5 lg:text-s sm:text-xs'>
+            <ul className='list-disc space-y-4 ml-5 lg:text-s'>
                 <li>Desarrollo de front-end (ExtJS) y back-end (Java)</li>
                 <li>Mantenimiento de aplicaciones</li>
                 <li>Ejecución de pruebas</li>
@@ -88,7 +88,7 @@ const ExperienceSection = () => {
         <h3 className='absolute top-1 uppercase tracking-[10px] font-semibold text-white text-2xl'>Experiencia</h3>    
 
         <div className='w-full flex space-x-5 overflow-x-scroll lg:p-8 sm:p-2 snap-x snap-mandatory 
-        scrollbar scrollbar-track-pink-500/20 scrollbar-thumb-pink-500/80'>
+        scrollbar scrollbar-track-secondary-500/20 scrollbar-thumb-secondary-500/80'>
             {DATA.map((d) => <ExperienceCard  key={d.id}
             id={d.id}
             src={d.src}

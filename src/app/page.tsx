@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col bg-[#121212] 
     overflow-x-hidden overflow-y-scroll  snap-mandatory h-screen
-    scrollbar scrollbar-track-pink-500/20 scrollbar-thumb-pink-500/80">
+    scrollbar scrollbar-track-secondary-500/20 scrollbar-thumb-secondary-500/80">
       <Head>
         <meta name="portfolio" content="Portfolio" />
       </Head>

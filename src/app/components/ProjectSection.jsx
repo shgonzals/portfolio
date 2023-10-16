@@ -42,8 +42,8 @@ const ProjectSection = () => {
     <div className='snap-center'>
         {/*
         <div className='text-white flex flex-row justify-center items-center gap-2 py-6'>
-            <button className='rounded-full border-2 border-pink-500 px-6 py-3 text-xl cursor-pointer'>All</button>
-            <button className='rounded-full border-2 border-white hover:border-pink-500 px-6 py-3 text-xl cursor-pointer'>Web</button>
+            <button className='rounded-full border-2 border-secondary-500 px-6 py-3 text-xl cursor-pointer'>All</button>
+            <button className='rounded-full border-2 border-white hover:border-secondary-500 px-6 py-3 text-xl cursor-pointer'>Web</button>
         </div>
         */}
         <h2 className='text-center top-24 uppercase tracking-[10px] font-semibold text-white text-2xl mb-4'>
