@@ -36,7 +36,7 @@ const Navbar = () => {
     <nav className="fixed mx-auto border border-secondary-500 border-t-0 border-l-0 border-r-0 top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-95">
       <div className="flex container lg:py-4 flex-wrap items-center justify-between mx-auto px-4 py-2">
         <Link
-          href={"/"}
+          href={"#inicio"}
           className="text-2xl md:text-5xl text-white font-semibold"
         >
           <Image alt="logo" src="/images/logo2.png" width={50} height={60} />
