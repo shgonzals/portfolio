@@ -16,6 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <meta name="portfolio" content="Portfolio Sheila González"></meta>
       <body className={inter.className}>{children}</body>
     </html>
   )

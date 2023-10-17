@@ -11,7 +11,7 @@ const projectData = [
         image: '/images/projects/1.png',
         tag: ["ALL", "Web"],
         gitUrl: 'https://github.com/shgonzals/qr-gen',
-        previewUrl: 'https://api-qrgen.shgonzals.es/'
+        previewUrl: 'https://qrgen.shgonzals.es/api/swagger-ui.html'
     },{
         id: 2,
         title: 'QR Gen',

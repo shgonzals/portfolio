@@ -146,7 +146,8 @@ const EmailSection = () => {
           <button
             type='submit'  onClick={handleClick} 
             className={`py-2.5 px-5 rounded-lg w-full ${clicked ? 'bg-secondary-700' : 'bg-secondary-500'}
-             text-white font-medium transition-all duration-300`}
+             text-white font-medium transition-all duration-300
+             hover:bg-secondary-700`}
           >
             Enviar Email
           </button>

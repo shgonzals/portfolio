@@ -51,7 +51,7 @@ const SkillsSection = () => {
             Skills
         </h2>
         <div className='flex flex-wrap justify-center mt-6 m-10 relative z-1'>
-            {skills.map((skill) => <SkillItem key={skill.id} icon={skill.icon} description={skill.description} />)}
+            {skills.map((skill) => <SkillItem key={skill.id} id={skill.id} icon={skill.icon} description={skill.description} />)}
         </div>
     </motion.div>
   )
