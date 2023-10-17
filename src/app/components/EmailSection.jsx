@@ -4,6 +4,8 @@ import GitHubIcon from '../../../public/images/github-icon.svg';
 import LinkedInIcon from '../../../public/images/linkedin-icon.svg';
 import Link from 'next/link';
 import Image from 'next/image';
+import { motion } from 'framer-motion'; 
+
 
 const EmailSection = () => {
   const handleSubmit = async (e) => {
@@ -40,7 +42,10 @@ const EmailSection = () => {
 
   return (
     <section className='grid md:grid-cols-2 my-12 md:my-12 py-24 gap-4 snap-center'>
-      <div>
+      <motion.div 
+      initial={{opacity: 0}}
+      whileInView={{opacity: 1}}
+      transition={{duration: 1.5}}>
         <h5 className='top-24 uppercase tracking-[10px] font-semibold text-white text-2xl mb-4'>
           Let&apos;s Connect
         </h5>
@@ -56,7 +61,7 @@ const EmailSection = () => {
             <Image src={LinkedInIcon} alt='LinkedIn Icon' />
           </Link>
         </div>
-      </div>
+      </motion.div>
       <div>
         <form className='flex flex-col' onSubmit={handleSubmit}>
           <div className='mb-6'>

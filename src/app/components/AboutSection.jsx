@@ -1,6 +1,7 @@
 "use client"
 import React, { useTransition, useState} from 'react';
 import Image from 'next/image';
+import { motion } from 'framer-motion'; 
 import TabButton from "./TabButton";
 
 const TAB_DATA = [
@@ -38,7 +39,11 @@ const AboutSection = () => {
 
   return (
     <section className='text-white snap-center'>
-        <div className='md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16'>
+        <motion.div
+        initial={{opacity: 0}}
+        whileInView={{opacity: 1}}
+        transition={{duration: 1.5}}
+        className='md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16'>
             <Image src="/images/about.jpg" className='rounded-xl ' width={500} height={500} alt=''/>
             <div className='mt-4 md:mt-0 text-left flex flex-col h-full'>
               <h2 className='top-24 uppercase tracking-[10px] font-semibold text-white text-2xl'>Sobre mi</h2>
@@ -59,7 +64,7 @@ const AboutSection = () => {
                 {TAB_DATA.find((t) => t.id === tab).content}
               </div>
             </div>
-        </div>
+        </motion.div>
     </section>
    
   )

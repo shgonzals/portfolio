@@ -1,5 +1,7 @@
+"use client";
 import React from 'react';
 import ProjectCard from './ProjectCard';
+import { motion } from 'framer-motion'; 
 
 const projectData = [
     {
@@ -39,7 +41,11 @@ const projectData = [
 
 const ProjectSection = () => {
   return (
-    <div className='snap-center'>
+    <motion.div 
+    initial={{opacity: 0}}
+    whileInView={{opacity: 1}}
+    transition={{duration: 1.5}}
+    className='snap-center'>
         {/*
         <div className='text-white flex flex-row justify-center items-center gap-2 py-6'>
             <button className='rounded-full border-2 border-secondary-500 px-6 py-3 text-xl cursor-pointer'>All</button>
@@ -57,7 +63,7 @@ const ProjectSection = () => {
             gitUrl={project.gitUrl}
             previewUrl={project.previewUrl} />)}
         </div>
-    </div>
+    </motion.div>
   )
 }
 
