@@ -1,5 +1,5 @@
 "use client"
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import GitHubIcon from '../../../public/images/github-icon.svg';
 import LinkedInIcon from '../../../public/images/linkedin-icon.svg';
 import Link from 'next/link';
@@ -8,6 +8,44 @@ import { motion } from 'framer-motion';
 
 
 const EmailSection = () => {
+  const [emailSubmitted , setEmailSubmitted ] = useState(false);
+  const [emailError , setEmailError ] = useState(false);
+  const [clicked, setClicked] = useState(false);
+
+  const handleClick = () => {
+    setClicked(true);
+  };
+
+  useEffect(() => {
+    // Configura un temporizador para ocultar el mensaje después de cierto tiempo 
+    if (emailSubmitted) {
+      const timer = setTimeout(() => {
+        setEmailSubmitted(false);
+      }, 10000); // 10000 milisegundos (10 segundos)
+      
+      // Reseteamos timer
+      return () => clearTimeout(timer);
+    }
+
+    if (emailError) {
+      const timer = setTimeout(() => {
+        setEmailError(false);
+      }, 10000); // 10000 milisegundos (10 segundos)
+      
+      // Reseteamos timer
+      return () => clearTimeout(timer);
+    }
+
+    if (clicked) {
+      const timer = setTimeout(() => {
+        setClicked(false);
+      }, 5000); // 5000 milisegundos (10 segundos)
+      
+      // Reseteamos timer
+      return () => clearTimeout(timer);
+    }
+  }, [emailSubmitted, emailError, clicked]);
+
   const handleSubmit = async (e) => {
     e.preventDefault();
 
@@ -32,10 +70,13 @@ const EmailSection = () => {
 
       if (response.status === 200) {
         console.log('Message sent.');
+        setEmailSubmitted(true);
       } else {
+        setEmailError(true);
         console.error('Error sending the message.');
       }
     } catch (error) {
+      setEmailError(true);
       console.error('An error occurred:', error);
     }
   }
@@ -103,11 +144,26 @@ const EmailSection = () => {
             />
           </div>
           <button
-            type='submit'
-            className='bg-secondary-500 hover:bg-secondary-500 text-white font-medium py-2.5 px-5 rounded-lg w-full'
+            type='submit'  onClick={handleClick} 
+            className={`py-2.5 px-5 rounded-lg w-full ${clicked ? 'bg-secondary-700' : 'bg-secondary-500'}
+             text-white font-medium transition-all duration-300`}
           >
             Enviar Email
           </button>
+          {
+            emailSubmitted && (
+              <p className='text-green-500 text-sm mt-2'>
+                ¡Enviado correctamente!
+              </p>
+            )
+          }
+          {
+            emailError && (
+              <p className='text-red-500 text-sm mt-2'>
+                Ha ocurrido un error, vuelva a intentarlo más tarde.
+              </p>
+            )
+          }
         </form>
       </div>
     </section>
