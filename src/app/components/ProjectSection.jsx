@@ -5,35 +5,35 @@ const projectData = [
     {
         id: 1,
         title: 'API QR Gen',
-        description: 'API con UI en Swagger desarrollado en Java 8 con Springbootb',
+        description: 'API con UI en Swagger desarrollado en Java 8 con Springboot. Ha sido creada con Java 8 y Springboot 2.5.5',
         image: '/images/projects/1.png',
         tag: ["ALL", "Web"],
-        gitUrl: '/',
-        previewUrl: '/'
+        gitUrl: 'https://github.com/shgonzals/qr-gen',
+        previewUrl: 'https://api-qrgen.shgonzals.es/'
     },{
         id: 2,
         title: 'QR Gen',
-        description: 'Frontend en Angular que generará un QR personalizado utilizando un API.',
+        description: 'Frontend en Angular que generará un QR personalizado utilizando un API. Ha sido creada con Angular 16.0.0',
         image: '/images/projects/2.png',
         tag: ["ALL", "Web"],
-        gitUrl: '/',
-        previewUrl: '/'
+        gitUrl: 'https://github.com/shgonzals/qr-gen-front',
+        previewUrl: 'http://qrgen.shgonzals.es/'
     },{
         id: 3,
         title: 'Portfolio',
-        description: 'Ha sido creada con Next.js 13.5 + Tailwind CSS 3.3.3.',
+        description: '¡Este portfolio! Ha sido creado con Next.js 13.5 + Tailwind CSS 3.3.3',
         image: '/images/projects/3.png',
         tag: ["ALL", "Web"],
-        gitUrl: '/',
-        previewUrl: '/'
+        gitUrl: 'https://github.com/shgonzals/portfolio',
+        previewUrl: 'https://portfolio-shgonzals.vercel.app/'
     },{
         id: 4,
         title: 'Stock Tracker',
-        description: 'Ha sido creada con Next.js 13.5 + Tailwind CSS 3.3.3.',
+        description: 'Aplicación que comprueba la información de stock. Ha sido creada con Angular 13.0.0',
         image: '/images/projects/4.png',
         tag: ["ALL", "Web"],
-        gitUrl: '/',
-        previewUrl: '/'
+        gitUrl: 'https://github.com/shgonzals/stock-track',
+        previewUrl: ''
     }
 ];
 
