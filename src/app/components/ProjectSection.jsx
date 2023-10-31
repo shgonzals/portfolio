@@ -55,7 +55,7 @@ const ProjectSection = () => {
         <h2 className='text-center top-24 uppercase tracking-[10px] font-semibold text-white text-2xl mb-4'>
             Mis Proyectos
         </h2>
-        <div className='grid md:grid-cols-3 gap-8 md-gap-12'>
+        <div className='grid xl:grid-cols-2 md:grid-cols-1 lg:grid-cols-2 sm:grid-cols-1 gap-8 md-gap-10'>
             {projectData.map((project) => <ProjectCard key={project.id} 
             title={project.title} 
             description={project.description}

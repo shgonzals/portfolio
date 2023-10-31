@@ -10,14 +10,14 @@ import Head from 'next/head';
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col bg-[#121212] 
+    <main className="flex min-h-screen flex-col bg-bg 
     overflow-x-hidden overflow-y-scroll  snap-mandatory h-screen
     scrollbar scrollbar-track-secondary-500/20 scrollbar-thumb-secondary-500/80">
       <Head>
         <meta name="portfolio" content="Portfolio" />
       </Head>
       <Navbar />
-      <section className="container mt-24 mx-auto px-12 py-12" id="inicio">
+      <section className="container mt-24 mx-auto px-10 py-12 lg:px-5" id="inicio">
         <section className="snap-start lg:mt-10 lg:px-12 sm: px-1 ">
           <HeroSection />
         </section>
