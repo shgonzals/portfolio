@@ -5,7 +5,7 @@ import ProjectSection from './components/ProjectSection';
 import EmailSection from './components/EmailSection';
 import Footer from './components/Footer';
 import SkillsSection from './components/SkillsSection';
-import ExperienceSection from './components/ExperienceSection';
+import Experience from './components/Experience';
 import Head from 'next/head';
 
 export default function Home() {
@@ -27,8 +27,8 @@ export default function Home() {
        <section className="py-20" id="skills">
           <SkillsSection />
         </section>
-        <section className="snap-center mb-10 py-20" id="experience">
-          <ExperienceSection />
+        <section className="py-20 " id="experience" >
+          <Experience />
         </section>        
         <section className="py-20" id="projects" >
           <ProjectSection />
