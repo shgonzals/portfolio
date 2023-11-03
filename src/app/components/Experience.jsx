@@ -66,7 +66,7 @@ const DATA = [
         empresa: 'Indra Minsait',
         fechas: 'Marzo 2017 - Septiembre 2019',
         content: (
-            <ul className='list-disc space-y-2 ml-5 lg:text-s sm:text-xs'>
+            <ul className='list-disc space-y-2 ml-5 text-s'>
                 <li>Desarrollo de front-end (ExtJS) y back-end (Java)</li>
                 <li>Mantenimiento de aplicaciones</li>
                 <li>Ejecución de pruebas</li>

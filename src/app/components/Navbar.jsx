@@ -32,6 +32,11 @@ const navLinks = [
 const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
 
+  const closeNavbar = () => {
+    console.log('NAVBAR: paso CLOSE')
+    setNavbarOpen(false);
+  };  
+
   return (
     <nav className="fixed mx-auto border border-secondary-500 border-t-0 border-l-0 border-r-0 top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-95">
       <div className="flex container lg:py-4 flex-wrap items-center justify-between mx-auto px-4 py-2">
@@ -62,13 +67,14 @@ const Navbar = () => {
           <ul className="flex p-4 md:p-0 md:flex-row md:space-x-8 mt-0">
             {navLinks.map((link, index) => (
               <li key={index}>
-                <NavLink href={link.path} title={link.title} onClick={() => setNavbarOpen(false)} />
+                <NavLink href={link.path} title={link.title} 
+                onClick={() => setNavbarOpen(false)} />
               </li>
             ))}
           </ul>
         </div>
       </div>
-      {navbarOpen ? <MenuOverlay links={navLinks} /> : null}
+      {navbarOpen ? <MenuOverlay links={navLinks} onClose={closeNavbar} /> : null}
     </nav>
   );
 };

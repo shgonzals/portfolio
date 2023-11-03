@@ -1,7 +1,5 @@
 "use client"
 import React, { useState, useEffect } from 'react';
-import GitHubIcon from '../../../public/images/github-icon.svg';
-import LinkedInIcon from '../../../public/images/linkedin-icon.svg';
 import Link from 'next/link';
 import Image from 'next/image';
 import { motion } from 'framer-motion'; 
@@ -94,12 +92,22 @@ const EmailSection = () => {
             Siempre estoy abierta a nuevas oportunidades, por lo que estaré encantada de o conectar a través de LinkedIn.
             Si tienes alguna pregunta o simplemente quieres saludar, ¡intentaré responderte lo antes posible! :)
         </p>
-        <div className='socials flex flex-row gap-2'>
-          <Link href="https://www.github.com/shgonzals" target="_blank">
-            <Image src={GitHubIcon} alt='GitHub Icon' />
+        <div className='socials flex flex-row gap-2 '>
+          <Link href="https://www.github.com/shgonzals" target="_blank" >
+            <motion.img
+                initial={{opacity: 0, y: 50, scale: 0.8}}
+                animate={{opacity: 1, y: 0, scale:1}}
+                whileHover={{scale: 1.25}} 
+                transition={{opacity: {duration: 0.2, delay: 1 * 0.2}, y: {duration: 0.2, delay: 1*0.2}, scale: {duration: 0.2}, whileHover: {duration: 0.1}}}
+                src="/images/github-icon.svg" width={40} height={40} alt="GitHub Icon" />
           </Link>
           <Link href="https://www.linkedin.com/in/sh-gonzal" target="_blank">
-            <Image src={LinkedInIcon} alt='LinkedIn Icon' />
+          <motion.img
+                initial={{opacity: 0, y: 50, scale: 0.8}}
+                animate={{opacity: 1, y: 0, scale:1}}
+                whileHover={{scale: 1.25}} 
+                transition={{opacity: {duration: 0.2, delay: 1 * 0.2}, y: {duration: 0.2, delay: 1*0.2}, scale: {duration: 0.2}, whileHover: {duration: 0.1}}}
+                src="/images/linkedin-icon.svg" width={40} height={40} alt="LinkedIn Icon" />
           </Link>
         </div>
       </motion.div>
