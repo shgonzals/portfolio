@@ -49,7 +49,7 @@ const HeroSection = () => {
             </div>
             <div className="col-span-5 flex justify-center items-center mt-6 sm:mt-6 ">
                 <div className="rounded-full bg-[#181818] w-[220px] h-[220px] relative">
-                    <Image src="/images/retro.png"
+                    <Image src="/images/retro.webp"
                     alt="hero image"
                     className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2
                     rounded-full bg-[#181818] w-[200px] h-[200px] "
