@@ -10,11 +10,11 @@ const ProjectCard = ({imgUrl, title, description, gitUrl, previewUrl, tags}) => 
   <div className='rounded-t-xl text-center relative'>
   <motion.div className='flex items-center justify-center overflow-hidden relative group'>
   <div className='overlay items-center justify-center absolute top-0 left-0 w-full h-full bg-[#181818] bg-opacity-0 hidden group-hover:flex group-hover:bg-opacity-80 transition-all duration-500 '>
-      <Link href={gitUrl} target="_blank" className='h-10 mr-6 w-10 border-2 relative rounded-full border-[#ADB7BE] hover:border-secondary-500 group/link'>
+      <Link href={gitUrl} target="_blank" className='h-10  w-10 border-2 relative rounded-full border-[#ADB7BE] hover:border-secondary-500 group/link'>
             <CodeBracketIcon className='h-6 w-6 text-[#ADB7BE] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 cursor-pointer group-hover/link:text-secondary-500' />
       </Link>
       {previewUrl && (
-        <Link href={previewUrl} target="_blank" className='h-10 w-10 border-2 relative rounded-full border-[#ADB7BE] hover:border-secondary-500 group/link'>
+        <Link href={previewUrl} target="_blank" className='h-10 w-10 ml-6 border-2 relative rounded-full border-[#ADB7BE] hover:border-secondary-500 group/link'>
           <EyeIcon className='h-6 w-6 text-[#ADB7BE] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 cursor-pointer group-hover/link:text-secondary-500' />
         </Link>
       )}
