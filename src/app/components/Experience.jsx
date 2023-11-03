@@ -96,7 +96,7 @@ const Experience = () => {
               key={index}
               animate={true}
               date={experiencia.fechas}
-              dateClassName="xl:text-white sm:text-black"
+              dateClassName="text-black xl:text-white sm:text-black uppercase"
               iconStyle={{ background: 'rgb(236, 72, 153)', color: '#fff' }}
               icon={<BriefcaseIcon  />}
               contentStyle={{
@@ -105,7 +105,7 @@ const Experience = () => {
               }}
               visible={inView} 
             >
-              <h3 className="text-xl font-bold text-black">{experiencia.puesto}</h3>
+              <h3 className="text-xl font-bold text-black uppercase tracking-[2px]">{experiencia.puesto}</h3>
               <h4 className="text-md font-semibold text-black">{experiencia.empresa}</h4>
               <div className='text-black'>{experiencia.content}</div>
             </VerticalTimelineElement>

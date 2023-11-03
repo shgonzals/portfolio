@@ -9,7 +9,7 @@ const projectData = [
         title: 'API QR Gen',
         description: 'API con UI en Swagger desarrollado en Java 8 con Springboot. ',
         image: '/images/projects/1.webp',
-        tags: ["Java", "Springboot", "Swagger"],
+        tags: ["Java", "Springboot", "Swagger", "API"   ],
         gitUrl: 'https://github.com/shgonzals/qr-gen',
         previewUrl: 'https://qrgen.shgonzals.es/api/swagger-ui.html'
     },{
