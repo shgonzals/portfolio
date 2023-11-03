@@ -50,7 +50,7 @@ const SkillsSection = () => {
         <h2 className='text-center top-24 uppercase tracking-[10px] font-semibold text-white text-2xl'>
             Skills
         </h2>
-        <div className='flex flex-wrap justify-center mt-6 m-10 relative z-1'>
+        <div className='flex flex-wrap justify-center  mt-6 m-10 relative z-1'>
             {skills.map((skill) => <SkillItem key={skill.id} id={skill.id} icon={skill.icon} description={skill.description} />)}
         </div>
     </motion.div>

@@ -66,7 +66,7 @@ const DATA = [
         empresa: 'Indra Minsait',
         fechas: 'Marzo 2017 - Septiembre 2019',
         content: (
-            <ul className='list-disc space-y-2 ml-5 lg:text-s'>
+            <ul className='list-disc space-y-2 ml-5 text-s'>
                 <li>Desarrollo de front-end (ExtJS) y back-end (Java)</li>
                 <li>Mantenimiento de aplicaciones</li>
                 <li>Ejecución de pruebas</li>
@@ -81,14 +81,14 @@ const Experience = () => {
     });
   
     return (
-      <div className="mx-auto px-4 w-full" ref={ref}>
+      <div className="mx-auto w-full" ref={ref}>
         <motion.div 
         className='mt-4'
         initial={{opacity: 0}}
         whileInView={{opacity: 1}}
         transition={{duration: 1.5}}
         >
-          <h2 className="text-center uppercase tracking-[10px] font-semibold text-white text-2xl mx-6 mb-10 ">Trayectoria profesional</h2>
+        <h2 className="text-center uppercase tracking-[10px] font-semibold text-white text-2xl mb-10 ">Trayectoria profesional</h2>
         </motion.div>
         <VerticalTimeline>
           {DATA.map((experiencia, index) => (

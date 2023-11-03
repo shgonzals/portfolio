@@ -7,15 +7,15 @@ const projectData = [
     {
         id: 1,
         title: 'API QR Gen',
-        description: 'API con UI en Swagger desarrollado en Java 8 con Springboot. Ha sido creada con Java 8 y Springboot 2.5.5',
+        description: 'API con UI en Swagger desarrollado en Java 8 con Springboot. ',
         image: '/images/projects/1.webp',
-        tags: ["Java", "Springboot"],
+        tags: ["Java", "Springboot", "Swagger"],
         gitUrl: 'https://github.com/shgonzals/qr-gen',
         previewUrl: 'https://qrgen.shgonzals.es/api/swagger-ui.html'
     },{
         id: 2,
         title: 'QR Gen',
-        description: 'Frontend en Angular que generará un QR personalizado utilizando un API. Ha sido creada con Angular 16.0.0',
+        description: 'Frontend en Angular que generará un QR personalizado utilizando un API.',
         image: '/images/projects/2.webp',
         tags: ["Angular", "Material"],
         gitUrl: 'https://github.com/shgonzals/qr-gen-front',
@@ -23,7 +23,7 @@ const projectData = [
     },{
         id: 3,
         title: 'Portfolio',
-        description: '¡Este portfolio! Ha sido creado con Next.js 13.5 + Tailwind CSS 3.3.3',
+        description: '¡Este portfolio! Frontend con información sobre mi vida laboral.',
         image: '/images/projects/3.webp',
         tags: ["Next.js", "Tailwind"],
         gitUrl: 'https://github.com/shgonzals/portfolio',
@@ -31,7 +31,7 @@ const projectData = [
     },{
         id: 4,
         title: 'Stock Tracker',
-        description: 'Aplicación que comprueba la información de stock. Ha sido creada con Angular 13.0.0',
+        description: 'Aplicación que comprueba la información de stock.',
         image: '/images/projects/4.webp',
         tags: ["Angular", "Material"],
         gitUrl: 'https://github.com/shgonzals/stock-track',
