@@ -3,13 +3,17 @@
 import React from "react";
 import Image from "next/image";
 import '/styles/styles.css';
+import { motion } from 'framer-motion'; 
 
 
 import { TypeAnimation } from "react-type-animation";
 
 const HeroSection = () => {
   return (
-    <div>
+    <motion.div 
+    initial={{opacity: 0}}
+    whileInView={{opacity: 1}}
+    transition={{duration: 1.5}}>
         <div className="grid grid-cols-1 sm:grid-cols-12">
             <div className="col-span-7 lg:place-self-center sm:place-self-auto sm:m-2 ">
                 <h1 className="top-24 uppercase tracking-[20px] lg:text-4xl lg:text-center sm:text-right font-semibold text-white">
@@ -59,7 +63,7 @@ const HeroSection = () => {
                 </div>
             </div>
         </div>
-    </div>
+    </motion.div>
   )
 }
 

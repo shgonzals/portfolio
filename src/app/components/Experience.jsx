@@ -107,7 +107,7 @@ const Experience = () => {
             >
               <h3 className="text-xl font-bold text-black">{experiencia.puesto}</h3>
               <h4 className="text-md font-semibold text-black">{experiencia.empresa}</h4>
-              <p className='text-black'>{experiencia.content}</p>
+              <div className='text-black'>{experiencia.content}</div>
             </VerticalTimelineElement>
           ))}
         </VerticalTimeline>
