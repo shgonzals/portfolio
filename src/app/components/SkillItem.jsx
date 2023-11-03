@@ -8,8 +8,8 @@ const SkillItem = ({description, icon, id}) => {
         initial={{opacity: 0, y: 50}}
         animate={{opacity: 1, y: 0}}
         transition={{duration: 0.5}}
-        className='mr-12'>
-            <div>
+        className='xl:mr-12 sm:mr-7 items-center justify-center'>
+            <div className='mr-5 sm:mt-5'>
                 <motion.img
                 initial={{opacity: 0, y: 50, scale: 0.8}}
                 animate={{opacity: 1, y: 0, scale:1}}

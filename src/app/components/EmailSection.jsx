@@ -82,7 +82,7 @@ const EmailSection = () => {
   }
 
   return (
-    <section className='grid md:grid-cols-2 my-12 md:my-12 py-24 gap-4 snap-center'>
+    <section className='grid md:grid-cols-2 my-12 md:my-12 gap-4 snap-center'>
       <motion.div 
       initial={{opacity: 0}}
       whileInView={{opacity: 1}}
