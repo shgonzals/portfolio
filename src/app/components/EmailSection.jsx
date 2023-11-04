@@ -89,8 +89,8 @@ const EmailSection = () => {
           Let&apos;s Connect
         </h5>
         <p className='text-[#ADB7BE] mb-4 max-w-md'>
-            Siempre estoy abierta a nuevas oportunidades, por lo que estaré encantada de o conectar a través de LinkedIn.
-            Si tienes alguna pregunta o simplemente quieres saludar, ¡intentaré responderte lo antes posible! :)
+            Siempre estoy abierta a nuevas oportunidades, por lo que estaré encantada de conectar a través de LinkedIn.
+            Si tienes alguna pregunta o simplemente quieres saludar, ¡manda un email e intentaré responderte lo antes posible! :)
         </p>
         <div className='socials flex flex-row gap-2 '>
           <Link href="https://www.github.com/shgonzals" target="_blank" >
