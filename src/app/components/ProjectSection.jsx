@@ -36,6 +36,14 @@ const projectData = [
         tags: ["Angular", "Material"],
         gitUrl: 'https://github.com/shgonzals/stock-track',
         previewUrl: ''
+    },{
+        id: 5,
+        title: 'BookNest',
+        description: 'Aplicación securizada para trackear los libros leídos.',
+        image: '/images/projects/5.webp',
+        tags: ["Java", "OpenAPI", "SpringBoot", "MongoDB", "JWT", "Docker"],
+        gitUrl: 'https://github.com/shgonzals/book-nest',
+        previewUrl: ''
     }
 ];
 
