@@ -39,15 +39,15 @@ const skills = [
         description: 'Postman'
     },{
         id: '9',
-        icon: '/images/logos/postman.svg',
+        icon: '/images/logos/kafka.svg',
         description: 'Kafka'
     },{
         id: '10',
-        icon: '/images/logos/postman.svg',
+        icon: '/images/logos/mongodb.svg',
         description: 'MongoDB'
     },{
         id: '11',
-        icon: '/images/logos/postman.svg',
+        icon: '/images/logos/docker.svg',
         description: 'Docker'
     }
 ];
