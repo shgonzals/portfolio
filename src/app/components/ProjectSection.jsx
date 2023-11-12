@@ -9,7 +9,7 @@ const projectData = [
         title: 'API QR Gen',
         description: 'API con UI en Swagger desarrollado en Java 8 con Springboot. ',
         image: '/images/projects/1.webp',
-        tags: ["Java", "Springboot", "Swagger", "API"   ],
+        tags: ["Java", "Springboot", "Swagger", "API" ],
         gitUrl: 'https://github.com/shgonzals/qr-gen',
         previewUrl: 'https://qrgen.shgonzals.es/api/swagger-ui.html'
     },{
@@ -35,6 +35,22 @@ const projectData = [
         image: '/images/projects/4.webp',
         tags: ["Angular", "Material"],
         gitUrl: 'https://github.com/shgonzals/stock-track',
+        previewUrl: ''
+    },{
+        id: 5,
+        title: 'BookNest',
+        description: 'API securizada para trackear los libros leídos.',
+        image: '/images/projects/5.webp',
+        tags: ["Java", "OpenAPI", "SpringBoot", "MongoDB", "JWT", "Docker", "JUnit5"],
+        gitUrl: 'https://github.com/shgonzals/book-nest',
+        previewUrl: ''
+    },{
+        id: 6,
+        title: 'Reservation Confirmation System',
+        description: 'API que maneja reservas de restaurantes y manda emails de confirmación de la reserva al usuario.',
+        image: '/images/projects/6.webp',
+        tags: ["Java", "Springboot", "MongoDb", "Docker", "Kafka"],
+        gitUrl: 'https://github.com/shgonzals/reservation-confirmation-system',
         previewUrl: ''
     }
 ];
