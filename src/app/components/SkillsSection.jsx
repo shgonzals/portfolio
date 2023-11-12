@@ -37,6 +37,18 @@ const skills = [
         id: '8',
         icon: '/images/logos/postman.svg',
         description: 'Postman'
+    },{
+        id: '9',
+        icon: '/images/logos/postman.svg',
+        description: 'Kafka'
+    },{
+        id: '10',
+        icon: '/images/logos/postman.svg',
+        description: 'MongoDB'
+    },{
+        id: '11',
+        icon: '/images/logos/postman.svg',
+        description: 'Docker'
     }
 ];
 
