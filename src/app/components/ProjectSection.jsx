@@ -9,7 +9,7 @@ const projectData = [
         title: 'API QR Gen',
         description: 'API con UI en Swagger desarrollado en Java 8 con Springboot. ',
         image: '/images/projects/1.webp',
-        tags: ["Java", "Springboot", "Swagger", "API"   ],
+        tags: ["Java", "Springboot", "Swagger", "API" ],
         gitUrl: 'https://github.com/shgonzals/qr-gen',
         previewUrl: 'https://qrgen.shgonzals.es/api/swagger-ui.html'
     },{
@@ -41,7 +41,7 @@ const projectData = [
         title: 'BookNest',
         description: 'Aplicación securizada para trackear los libros leídos.',
         image: '/images/projects/5.webp',
-        tags: ["Java", "OpenAPI", "SpringBoot", "MongoDB", "JWT", "Docker"],
+        tags: ["Java", "OpenAPI", "SpringBoot", "MongoDB", "JWT", "Docker", "JUnit5"],
         gitUrl: 'https://github.com/shgonzals/book-nest',
         previewUrl: ''
     }
