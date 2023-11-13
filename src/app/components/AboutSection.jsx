@@ -44,17 +44,16 @@ const AboutSection = () => {
         whileInView={{opacity: 1}}
         transition={{duration: 1.5}}
         className='md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16'>
-            <Image src="/images/1.webp" className='rounded-xl ' width={500} height={500} alt=''/>
-            <div className='mt-4 md:mt-0 text-left flex flex-col h-full'>
-              <h2 className='top-24 uppercase tracking-[10px] font-semibold text-white text-2xl'>Sobre mi</h2>
+          <div className='flex justify-center items-center'><Image src="/images/1.webp" className='rounded-xl' width={450} height={450} alt=''/></div>
+            
+            <div className='mt-4 md:mt-0 text-left flex flex-col h-full justify-center align-middle'>
+              <h2 className='top-20 uppercase tracking-[10px] font-semibold text-white text-2xl mt-0'>Sobre mi</h2>
               <div className='text-base lg:text-m'>
                 <p>
                 Actualmente desarrollo funcionalidades como backend con Java 8 y Spring Batch para una aplicación refactorizada, en la cual también participo en el análisis de los casos de uso a realizar, basándonos en la aplicación de origen (CA Plex).
                 </p>
                 <br/>
-                <p>
-                  Me considero una persona con gran capacidad resolutiva, dinámica y con adaptación a nuevos entornos y dificultades, buena compañera en el trabajo en equipo y con ganas de seguir formándome y progresando en las tecnologias del desarrollo.
-                </p>  
+                 
               </div>
               <div className='flex justify-start flex-row mt-8'>
                 <TabButton selectTab={() => handleTabChange("certifications")} active={tab === "certifications"}>{" "} Certificaciones {" "}</TabButton>
