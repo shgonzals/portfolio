@@ -38,11 +38,13 @@ const HeroSection = () => {
                 &quot;Dreams are extremely important. You can&apos;t do it unless you imagine it.&quot;
                </p>
                 <div className="lg:flex lg:justify-center lg:items-center">
-                    <button className="uppercase 
+                    <button className="group uppercase 
                     tracking-[5px] px-6 py-3 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-400 via-primary-500
-                     to-secondary-500  hover:bg-slate-200 text-white mr-4"
+                     to-secondary-500  text-white mr-4
+                     hover:opacity-80 hover:bg-slate-200
+                     "
                      >
-                       <a href="./docs/CV.pdf" download> Descargar CV </a>
+                       <a href="./docs/CV.pdf " download> Descargar CV </a>
                     </button>
                     {/* 
                     <button className="px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-400 via-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3">

@@ -80,6 +80,17 @@ const ProjectSection = () => {
             tags={project.tags}
             previewUrl={project.previewUrl} />)}
         </div>
+        <div className='text-center text-white mt-5 text-xs'>
+        <button
+            type='submit'
+            className='py-2.5 px-5 rounded-lg 
+             text-white font-medium transition-all duration-300
+             bg-secondary-500
+             hover:bg-secondary-700'
+        >
+            <a href="https://github.com/shgonzals?tab=repositories" target="_blank"> Ver más proyectos... </a>
+          </button>
+        </div>
     </motion.div>
   )
 }
