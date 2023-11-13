@@ -19,6 +19,7 @@ const EmailSection = () => {
     if (emailSubmitted) {
       const timer = setTimeout(() => {
         setEmailSubmitted(false);
+
       }, 10000); // 10000 milisegundos (10 segundos)
       
       // Reseteamos timer
@@ -69,6 +70,9 @@ const EmailSection = () => {
       if (response.status === 200) {
         console.log('Message sent.');
         setEmailSubmitted(true);
+        e.target.email.value = '';
+        e.target.subject.value = '';
+        e.target.message.value = '';
       } else {
         setEmailError(true);
         console.error('Error sending the message.');
