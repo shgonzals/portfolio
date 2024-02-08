@@ -6,18 +6,18 @@ import { motion } from 'framer-motion';
 const projectData = [
     {
         id: 1,
-        title: 'API QR Gen',
-        description: 'API con UI en Swagger desarrollado en Java 8 con Springboot. ',
+        title: 'Taskify',
+        description: 'App que gestiona tareas para aplicar las últimas novedades de Angular v17.',
         image: '/images/projects/1.webp',
-        tags: ["Java", "Springboot", "Swagger", "API" ],
-        gitUrl: 'https://github.com/shgonzals/qr-gen',
-        previewUrl: 'https://qrgen.shgonzals.es/api/swagger-ui.html'
+        tags: [ "Angular", "Material" ],
+        gitUrl: 'https://github.com/shgonzals/taskify',
+        previewUrl: 'https://taskify-shgonzals.vercel.app/'
     },{
         id: 2,
         title: 'QR Gen',
-        description: 'Frontend en Angular que generará un QR personalizado utilizando un API.',
+        description: 'App en Angular que generará un QR personalizado utilizando un API con UI en Swagger desarrollado en Java 8 con Springboot.',
         image: '/images/projects/2.webp',
-        tags: ["Angular", "Material"],
+        tags: ["Angular", "Material", "Java", "Springboot", "Swagger", "API"],
         gitUrl: 'https://github.com/shgonzals/qr-gen-front',
         previewUrl: 'http://qrgen.shgonzals.es/'
     },{
