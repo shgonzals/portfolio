@@ -19,7 +19,9 @@ const ProjectSection = () => {
             <button className='rounded-full border-2 border-white hover:border-secondary-500 px-6 py-3 text-xl cursor-pointer'>Web</button>
         </div>
         */}
-        <h2 className='text-center top-24 uppercase tracking-[10px] font-semibold text-white text-2xl mb-6'>
+        <h2 className='text-center top-24 uppercase tracking-[10px] font-bold 
+        text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600
+        text-2xl mb-6'>
             Mis Proyectos
         </h2>
         <div className='grid sm:grid-cols-1 xl:grid-cols-3 md:grid-cols-2 gap-8 md-gap-10'>

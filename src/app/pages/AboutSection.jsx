@@ -47,7 +47,9 @@ const AboutSection = () => {
           <div className='flex justify-center items-center'><Image src="/images/1.webp" className='rounded-xl' width={450} height={450} alt=''/></div>
             
             <div className='mt-4 md:mt-0 text-left flex flex-col h-full justify-center align-middle'>
-              <h2 className='top-20 uppercase tracking-[10px] font-semibold text-white text-2xl mt-0'>Sobre mi</h2>
+              <h2 className='top-20 uppercase tracking-[10px] font-bold 
+              text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600
+              text-2xl mt-0'>Sobre mi</h2>
               <div className='text-base lg:text-m'>
                 <p>
                 Actualmente desarrollo funcionalidades como backend con Java 8 y Spring Batch para una aplicación refactorizada, en la cual también participo en el análisis de los casos de uso a realizar, basándonos en la aplicación de origen (CA Plex).

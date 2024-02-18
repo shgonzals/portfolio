@@ -89,7 +89,9 @@ const EmailSection = () => {
       initial={{opacity: 0}}
       whileInView={{opacity: 1}}
       transition={{duration: 1.5}}>
-        <h5 className='top-24 uppercase tracking-[10px] font-semibold text-white text-2xl mb-4'>
+        <h5 className='top-24 uppercase tracking-[10px] font-bold 
+        text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600
+        text-2xl mb-4'>
           Let&apos;s Connect
         </h5>
         <p className='text-[#ADB7BE] mb-4 max-w-md'>

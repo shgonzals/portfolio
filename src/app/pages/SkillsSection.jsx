@@ -59,7 +59,9 @@ const SkillsSection = () => {
     whileInView={{opacity: 1}}
     transition={{duration: 1.5}}
     className='mb-20 snap-center'>
-        <h2 className='text-center top-24 uppercase tracking-[10px] font-semibold text-white text-2xl'>
+        <h2 className='text-center top-24 uppercase tracking-[10px] font-bold 
+        text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600
+        text-2xl'>
             Skills
         </h2>
         <div className='flex flex-wrap justify-center  mt-6 m-10 relative z-1'>

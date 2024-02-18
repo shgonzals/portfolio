@@ -88,7 +88,9 @@ const Experience = () => {
         whileInView={{opacity: 1}}
         transition={{duration: 1.5}}
         >
-        <h2 className="text-center uppercase tracking-[10px] font-semibold text-white text-2xl mb-10 ">Trayectoria profesional</h2>
+        <h2 className="text-center uppercase tracking-[10px] font-bold 
+        text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600
+        text-2xl mb-10 ">Trayectoria profesional</h2>
         </motion.div>
         <VerticalTimeline>
           {DATA.map((experiencia, index) => (
