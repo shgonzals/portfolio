@@ -1,0 +1,167 @@
+{
+    "job": "BACKEND DEVELOPER",
+    "name": "SHEILA GONZÁLEZ",
+    "cvButton": "Descargar CV",
+    "quote": "&quot;Dreams are extremely important. You can't do it unless you imagine it.&quot;",
+    "menu": {
+        "about": "Sobre mi",
+        "skills":"Skills",
+        "experience": "Experiencia",
+        "projects":"Proyectos",
+        "contact": "Contacto"
+    },
+    "about":{
+        "title": "Sobre mi",
+        "desc": "Actualmente desarrollo funcionalidades como backend con Java 8 y Spring Batch para una aplicación refactorizada, en la cual también participo en el análisis de los casos de uso a realizar, basándonos en la aplicación de origen (CA Plex).",
+        "certs":{
+            "angular":"Angular Level 2 Certification - Interstate 21, LLC (12/2022) [ID: 3L14N3T]",
+            "springboot": "Spring Boot-JPA - Desfufor S.L. (09/2022)",
+            "errors":"Errores recurrentes en la programación SW (20h) - 2018",
+            "oracle": "Oracle11g Lenguaje PL/SQL II (12h) - 2018"
+        },
+        "studies":{
+            "dam": "Técnico Superior en Desarrollo de Aplicaciones Multiplataforma (2015 - 2017)"
+        }
+    },
+    "skills":{
+        "title": "Skills",
+        "java": "Java",
+        "git":"Git",
+        "oracle":"Oracle",
+        "spring": "Spring",
+        "hibernate":"Hibernate",
+        "angular":"Angular",
+        "extjs": "ExtJS",
+        "postman":"Postman",
+        "kafka":"Kafka",
+        "mongodb": "MongoDB",
+        "docker":"Docker"
+    },
+    "experience":{
+        "title": "TRAYECTORIA PROFESIONAL",
+        "indra": {
+            "job": "Full-stack developer",
+            "company": "Indra Minsait",
+            "dates": "MARZO 2017 - SEPTIEMBRE 2019",
+            "content":{
+                "a": "Desarrollo de front-end (ExtJS) y back-end (Java)",
+                "b": "Mantenimiento de aplicaciones",
+                "c": "Ejecución de pruebas",
+                "d": "Desarrollo de documentación funcional"
+            }
+        },
+        "cofares": {
+            "job": "Full-stack developer",
+            "company": "Cofares",
+            "dates": "OCTUBRE 2019 - ABRIL 2020",
+            "content":{
+                "a": "Desarrollo de front-end (ExtJS) y back-end (Java)",
+                "b": "Mantenimiento de aplicaciones",
+                "c": "Ejecución de pruebas",
+                "d": "Desarrollo de documentación funcional"
+            }
+        },
+        "pfs":{
+            "job": "Full-stack developer",
+            "company": "PFS Group",
+            "dates": "ABRIL 2020 - MARZO 2021",
+            "content":{
+                "a": "Desarrollo de front-end (ExtJS/Angular) y back-end (Java)",
+                "b": "Mantenimiento de aplicaciones",
+                "c": "Ejecución de pruebas",
+                "d": "Análisis de requisitos",
+                "e": "Desarrollo de documentación funcional"
+            }
+        },
+        "oesia":{
+            "job": "Full-stack developer",
+            "company": "Grupo Oesia",
+            "dates": "ABRIL 2021 - JULIO 2021",
+            "content":{
+                "a": "Desarrollo de back-end (Java 8)",
+                "b": "Ejecución y creación de pruebas"
+            }
+        },
+        "capgemini":{
+            "job": "Senior Full-stack developer",
+            "company": "Capgemini",
+            "dates": "JULIO 2021 - FEBRERO 2024",
+            "content":{
+                "a": "Desarrollo backend con Java 11 y Spring Batch",
+                "b": "Análisis de requisitos para una aplicación refactorizada (Java) en base a los casos de uso de la aplicación origen (CA Plex)",
+                "c": "Desarrollo de front-end (ExtJS) y back-end (Java)",
+                "d": "Mantenimiento de aplicaciones"
+            }
+        },
+        "grupog":{
+            "job": "Senior Full-stack developer",
+            "company": "Grupo G's",
+            "dates": "FEBRERO 2024 - PRESENTE",
+            "content":{
+                "a": "Desarrollo frontend con Angular",
+                "b": "Refactorización de aplicaciones"
+            }
+        }
+    }, 
+    "projects":{
+        "title": "MIS PROYECTOS",
+        "rsc": {
+            "title": "RESERVATION CONFIRMATION SYSTEM",
+            "desc": "API que maneja reservas de restaurantes y manda emails de confirmación de la reserva al usuario."
+        },
+        "booknest": {
+            "title": "BOOKNEST",
+            "desc": "API securizada para trackear los libros leídos."
+        },
+        "stocktracker": {
+            "title": "STOCK TRACKER",
+            "desc": "Aplicación que comprueba la información de stock."
+        },
+        "portfolio": {
+            "title": "PORTFOLIO",
+            "desc": "¡Este portfolio! Frontend con información sobre mi vida laboral."
+        },
+        "qrgen": {
+            "title": "QR GEN",
+            "desc": "App en Angular que generará un QR personalizado utilizando un API con UI en Swagger desarrollado en Java 8 con Springboot."
+        },
+        "taskify": {
+            "title": "TASKIFY",
+            "desc": "App que gestiona tareas para aplicar las últimas novedades de Angular v17."
+        },
+        "more": "Ver más proyectos...",
+        "tags":{
+            "java": "Java",
+            "angular": "Angular",
+            "material": "Material",
+            "springboot": "Springboot",
+            "swagger": "Swagger",
+            "api": "API",
+            "nextjs": "NextJS",
+            "tailwind": "Tailwind",
+            "openapi": "OpenAPI",
+            "mongodb": "MongoDB", 
+            "jwt": "JWT",
+            "docker": "Docker",
+            "junit": "JUnit5",
+            "kafka": "Kafka"   
+        }
+    }, 
+    "contact":{
+        "title": "LET'S CONNECT",
+        "desc": "Siempre estoy abierta a nuevas oportunidades, por lo que estaré encantada de conectar a través de LinkedIn. Si tienes alguna pregunta o simplemente quieres saludar, ¡manda un email e intentaré responderte lo antes posible! :)",
+        "email": {
+            "title": "Email",
+            "desc": "Tu email"
+        },
+        "subject": {
+            "title": "Asunto",
+            "desc": "¡He visto tu perfil! "
+        },
+        "msg": {
+            "title": "Mensaje",
+            "desc": "Me gustaría hablarte sobre..."
+        },
+        "button" : "Enviar Email" 
+    }
+}
