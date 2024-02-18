@@ -1,11 +1,11 @@
-import HeroSection from "./components/HeroSection";
-import Navbar from "./components/Navbar";
-import AboutSection from './components/AboutSection';
-import ProjectSection from './components/ProjectSection'; 
-import EmailSection from './components/EmailSection';
-import Footer from './components/Footer';
-import SkillsSection from './components/SkillsSection';
-import Experience from './components/Experience';
+import HeroSection from "./pages/HeroSection";
+import Navbar from "./pages/Navbar";
+import AboutSection from './pages/AboutSection';
+import ProjectSection from './pages/ProjectSection'; 
+import EmailSection from './pages/EmailSection';
+import Footer from './pages/Footer';
+import SkillsSection from './pages/SkillsSection';
+import Experience from './pages/Experience';
 import Head from 'next/head';
 
 export default function Home() {
