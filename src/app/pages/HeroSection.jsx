@@ -3,9 +3,9 @@
 import React from "react";
 import Image from "next/image";
 import { motion } from 'framer-motion'; 
-
-
+import '/styles/styles.css';
 import { TypeAnimation } from "react-type-animation";
+import AchievementsSection from "./AchievementsSection";
 
 const HeroSection = () => {
   return (
@@ -15,25 +15,25 @@ const HeroSection = () => {
     transition={{duration: 1.5}}>
         <div className="grid grid-cols-1 sm:grid-cols-12">
             <div className="col-span-7 lg:place-self-center sm:place-self-auto sm:m-2 ">
-                <h1 className="top-24 uppercase tracking-[20px] lg:text-4xl lg:text-center sm:text-right font-semibold text-white">
+                <h1 className="top-24 uppercase tracking-[10px] lg:text-5xl text-3xl lg:text-center text-center font-semibold text-white">
                     <span className="bg-clip-text">
                         Sheila González {" "} 
                     </span>
                     <br/>
                     <TypeAnimation
                         sequence={[
-                        'Backend Developer',
+                        'Full-stack Developer',
                         1000,
                         ]}
                         wrapper="span"
                         speed={50}
                         repeat={1}
-                        className="text-transparent bg-clip-text text-lg sm:text-right bg-gradient-to-r from-primary-400 to-secondary-600"
+                        className="text-transparent bg-clip-text text-2xl text-center font-bold bg-gradient-to-r from-primary-400 to-secondary-600"
                         
                     />
                     <span className="blink degradado">|</span>
                 </h1>
-                <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 mt-6 sm:mb-6 lf:text-xl italic">
+                <p className="text-[#ADB7BE] text-base text-center sm:text-lg mb-6 mt-6 sm:mb-6 lf:text-xl italic">
                 &quot;Dreams are extremely important. You can&apos;t do it unless you imagine it.&quot;
                </p>
                 <div className="lg:flex lg:justify-center lg:items-center">
@@ -52,7 +52,9 @@ const HeroSection = () => {
                     */}
                 </div>
             </div>
-            <div className="col-span-5 flex justify-center items-center mt-6 md:mt-0 xl:mt-0 ">
+            
+            <div className="col-span-5 flex flex-col justify-center items-center mt-6 md:mt-0 xl:mt-0 ">
+                
                 <div className="rounded-full bg-[#181818] w-[220px] h-[220px] relative ">
                     <Image src="/images/retro.webp"
                     alt="hero image"
@@ -62,7 +64,10 @@ const HeroSection = () => {
                     height={300}
                     />
                 </div>
+                 
             </div>
+
+          
         </div>
     </motion.div>
   )
