@@ -17,14 +17,13 @@ const config: Config = {
     },
     colors: {
       ...colors,
-      bg: colors.black,
-      text: colors.green,
       primary: colors.purple,
-      secondary: colors.pink
+      secondary: colors.pink,
     }
-  },
+  },/* Rose Water Gradient */
   plugins: [
     require('tailwind-scrollbar') 
   ],
+  darkMode: "class"
 }
 export default config

@@ -17,7 +17,7 @@ const AboutSection = () => {
   };
 
   return (
-    <section className='text-white snap-center'>
+    <section className='text-black dark:text-white snap-center'>
         <motion.div
         initial={{opacity: 0}}
         whileInView={{opacity: 1}}

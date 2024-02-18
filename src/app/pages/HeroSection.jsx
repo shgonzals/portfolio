@@ -15,7 +15,8 @@ const HeroSection = () => {
     transition={{duration: 1.5}}>
         <div className="grid grid-cols-1 sm:grid-cols-12">
             <div className="col-span-7 lg:place-self-center sm:place-self-auto sm:m-2 ">
-                <h1 className="top-24 uppercase tracking-[10px] lg:text-5xl text-3xl lg:text-center text-center font-semibold text-white">
+                <h1 className="top-24 uppercase tracking-[10px] lg:text-5xl text-3xl lg:text-center
+                 text-center font-semibold text-black dark:text-white">
                     <span className="bg-clip-text">
                         Sheila González {" "} 
                     </span>
@@ -33,15 +34,14 @@ const HeroSection = () => {
                     />
                     <span className="blink degradado">|</span>
                 </h1>
-                <p className="text-[#ADB7BE] text-base text-center sm:text-lg mb-6 mt-6 sm:mb-6 lf:text-xl italic">
+                <p className="dark:text-[#ADB7BE] text-black/80 text-base text-center sm:text-lg mb-6 mt-6 sm:mb-6 lf:text-xl italic">
                 &quot;Dreams are extremely important. You can&apos;t do it unless you imagine it.&quot;
                </p>
                 <div className="lg:flex lg:justify-center lg:items-center">
                     <button className="group uppercase 
-                    tracking-[5px] px-6 py-3 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-400 via-primary-500
-                     to-secondary-500  text-white mr-4
-                     hover:opacity-80 hover:bg-slate-200
-                     "
+                    tracking-[5px] px-6 py-3 w-full sm:w-fit rounded-full bg-gradient-to-br 
+                    from-primary-400 via-primary-500 to-secondary-500 text-white
+                    mr-4 hover:opacity-80 hover:bg-slate-200 "
                      >
                        <a href="./docs/CV.pdf " download> Descargar CV </a>
                     </button>
@@ -55,11 +55,11 @@ const HeroSection = () => {
             
             <div className="col-span-5 flex flex-col justify-center items-center mt-6 md:mt-0 xl:mt-0 ">
                 
-                <div className="rounded-full bg-[#181818] w-[220px] h-[220px] relative ">
+                <div className="rounded-full bg-secondary-300 dark:bg-[#181818] w-[220px] h-[220px] relative ">
                     <Image src="/images/retro.webp"
                     alt="hero image"
                     className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2
-                    rounded-full bg-[#181818] w-[200px] h-[200px] "
+                    rounded-full dark:bg-[#181818] w-[200px] h-[200px] "
                     width={300}
                     height={300}
                     />

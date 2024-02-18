@@ -32,12 +32,13 @@ const Experience = () => {
               key={index}
               animate={true}
               date={experiencia.fechas}
-              dateClassName="text-black xl:text-white sm:text-black uppercase"
+              dateClassName="text-black xl:text-black dark:xl:text-white sm:text-black uppercase"
               iconStyle={{ background: 'rgb(236, 72, 153)', color: '#fff' }}
               icon={<BriefcaseIcon  />}
               contentStyle={{
                 border: "1px solid rgba(0, 0, 0, 0.05)",
-                textAlign: "left"
+                textAlign: "left",
+                background:"#f3f4f6" 
               }}
               visible={inView} 
             >

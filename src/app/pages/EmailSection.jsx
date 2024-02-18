@@ -94,25 +94,27 @@ const EmailSection = () => {
         text-2xl mb-4'>
           Let&apos;s Connect
         </h5>
-        <p className='text-[#ADB7BE] mb-4 max-w-md'>
+        <p className='text-black dark:text-[#ADB7BE] mb-4 max-w-md'>
             Siempre estoy abierta a nuevas oportunidades, por lo que estaré encantada de conectar a través de LinkedIn.
             Si tienes alguna pregunta o simplemente quieres saludar, ¡manda un email e intentaré responderte lo antes posible! :)
         </p>
-        <div className='socials flex flex-row gap-2 '>
-          <Link href="https://www.github.com/shgonzals" target="_blank" >
-            <motion.img
+        <div className='socials flex flex-row gap-2'>
+          <Link href="https://www.github.com/shgonzals"  target="_blank" >
+            <motion.img style="background: red"
                 initial={{opacity: 0, y: 50, scale: 0.8}}
                 animate={{opacity: 1, y: 0, scale:1}}
                 whileHover={{scale: 1.25}} 
-                transition={{opacity: {duration: 0.2, delay: 1 * 0.2}, y: {duration: 0.2, delay: 1*0.2}, scale: {duration: 0.2}, whileHover: {duration: 0.1}}}
+                transition={{opacity: {duration: 0.2, delay: 1 * 0.2}, y: {duration: 0.2, delay: 1*0.2}, 
+                scale: {duration: 0.2}, whileHover: {duration: 0.1}}}
                 src="/images/github-icon.svg" width={40} height={40} alt="GitHub Icon" />
           </Link>
           <Link href="https://www.linkedin.com/in/sh-gonzal" target="_blank">
-          <motion.img
+          <motion.img className='bg-red'
                 initial={{opacity: 0, y: 50, scale: 0.8}}
                 animate={{opacity: 1, y: 0, scale:1}}
                 whileHover={{scale: 1.25}} 
-                transition={{opacity: {duration: 0.2, delay: 1 * 0.2}, y: {duration: 0.2, delay: 1*0.2}, scale: {duration: 0.2}, whileHover: {duration: 0.1}}}
+                transition={{opacity: {duration: 0.2, delay: 1 * 0.2}, y: {duration: 0.2, delay: 1*0.2},
+                scale: {duration: 0.2}, whileHover: {duration: 0.1}}}
                 src="/images/linkedin-icon.svg" width={40} height={40} alt="LinkedIn Icon" />
           </Link>
         </div>
@@ -120,39 +122,39 @@ const EmailSection = () => {
       <div>
         <form className='flex flex-col' onSubmit={handleSubmit}>
           <div className='mb-6'>
-            <label htmlFor='email' className='mb-2 text-white block text-sm font-medium'>
+            <label htmlFor='email' className='mb-2 text-black dark:text-white block text-sm font-medium'>
               Email
             </label>
             <input
               name='email'
               type="email"
               id="email"
-              className='bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5'
+              className='dark:bg-[#18191E] border border-[#33353F] placeholder-black/80 dark:placeholder-[#9CA2A9] dark:text-gray-100 text-sm rounded-lg block w-full p-2.5'
               required
               placeholder='Tu email'
             />
           </div>
           <div className='mb-6'>
-            <label htmlFor='subject' className='mb-2 text-white block text-sm font-medium'>
+            <label htmlFor='subject' className='mb-2 text-black dark:text-white block text-sm font-medium'>
               Asunto
             </label>
             <input
               name='subject'
               type="text"
               id="subject"
-              className='bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5'
+              className='dark:bg-[#18191E] border border-[#33353F] placeholder-black/80 dark:placeholder-[#9CA2A9] dark:text-gray-100 text-sm rounded-lg block w-full p-2.5'
               required
               placeholder='¡He visto tu perfil!'
             ></input>
           </div>
           <div className='mb-6'>
-            <label htmlFor='message' className='mb-2 text-white block text-sm font-medium'>
+            <label htmlFor='message' className='mb-2 dark:text-white block text-sm font-medium'>
               Mensaje
             </label>
             <textarea
               name='message'
               id="message"
-              className='bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5'
+              className='dark:bg-[#18191E] border border-[#33353F] placeholder-black/80 dark:placeholder-[#9CA2A9] dark:text-gray-100 text-sm rounded-lg block w-full p-2.5'
               required
               placeholder='Me gustaría hablarte sobre...'
             />
