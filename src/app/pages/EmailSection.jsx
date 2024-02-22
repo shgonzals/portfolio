@@ -100,7 +100,9 @@ const EmailSection = () => {
         </p>
         <div className='socials flex flex-row gap-2'>
           <Link href="https://www.github.com/shgonzals"  target="_blank" >
-            <motion.img style="background: red"
+            <motion.img className='rounded-md bg-gradient-to-br 
+                    from-primary-400 via-primary-500 to-secondary-500 
+                    dark:bg-gradient-to-br dark:from-transparent dark:via-transparent dark:to-transparent'
                 initial={{opacity: 0, y: 50, scale: 0.8}}
                 animate={{opacity: 1, y: 0, scale:1}}
                 whileHover={{scale: 1.25}} 
@@ -109,7 +111,8 @@ const EmailSection = () => {
                 src="/images/github-icon.svg" width={40} height={40} alt="GitHub Icon" />
           </Link>
           <Link href="https://www.linkedin.com/in/sh-gonzal" target="_blank">
-          <motion.img className='bg-red'
+          <motion.img className='rounded-md bg-gradient-to-br from-primary-400 via-primary-500 to-secondary-500 
+          dark:bg-gradient-to-br dark:from-transparent dark:via-transparent dark:to-transparent'
                 initial={{opacity: 0, y: 50, scale: 0.8}}
                 animate={{opacity: 1, y: 0, scale:1}}
                 whileHover={{scale: 1.25}} 
