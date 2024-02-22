@@ -15,7 +15,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="es">
       <meta name="portfolio" content="Portfolio Sheila González"></meta>
       <body className={inter.className}>{children}</body>
     </html>

@@ -23,8 +23,8 @@ const AboutSection = () => {
         whileInView={{opacity: 1}}
         transition={{duration: 1.5}}
         className='md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16'>
-          <div className='flex justify-center items-center'><Image src="/images/1.webp" className='rounded-xl' width={450} height={450} alt=''/></div>
-            
+          <div className='flex justify-center items-center'>
+            <Image src="/images/1.webp" className='rounded-xl' width={450} height={450} alt=''/></div>
             <div className='mt-4 md:mt-0 text-left flex flex-col h-full justify-center align-middle'>
               <h2 className='top-20 uppercase tracking-[10px] font-bold 
               text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600

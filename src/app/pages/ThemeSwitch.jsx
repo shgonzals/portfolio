@@ -38,7 +38,7 @@ const ThemeSwitch = () => {
     <button className='fixed bottom-5 right-5 m-5 flex items-center justify-center
     text-secondary-500 w-[3rem] h-[3rem] backdrop-blur-[0.5rem] rounded-full
     border border-secondary-500 shadow-2xl hover:scale-[1.15] 
-     active:scale-105 transition-all'
+     active:scale-105 transition-all' aria-label='themeButton'
     onClick={toggleTheme}>
         {theme === 'light' ? <BsSun /> : <BsMoon />}
     </button>
