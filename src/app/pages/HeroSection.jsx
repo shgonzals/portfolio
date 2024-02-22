@@ -13,9 +13,9 @@ const HeroSection = () => {
     initial={{opacity: 0}}
     whileInView={{opacity: 1}}
     transition={{duration: 1.5}}>
-        <div className="grid grid-cols-1 sm:grid-cols-12">
-            <div className="col-span-7 lg:place-self-center sm:place-self-auto sm:m-2 ">
-                <h1 className="top-24 uppercase tracking-[10px] lg:text-5xl text-3xl lg:text-center
+        <div className="flex justify-center">
+            <div className="col-span-7 text-center lg:place-self-center sm:place-self-auto sm:m-2 ">
+                <h1 className="top-24 uppercase tracking-[10px] lg:text-7xl text-4xl lg:text-center
                  text-center font-semibold text-black dark:text-white">
                     <span className="bg-clip-text">
                         Sheila González {" "} 
@@ -29,7 +29,7 @@ const HeroSection = () => {
                         wrapper="span"
                         speed={50}
                         repeat={1}
-                        className="text-transparent bg-clip-text text-2xl text-center font-bold bg-gradient-to-r from-primary-400 to-secondary-600"
+                        className="text-transparent bg-clip-text text-xl lg:text-4xl text-center font-bold bg-gradient-to-r from-primary-400 to-secondary-600"
                         
                     />
                     <span className="blink degradado">|</span>
@@ -53,19 +53,7 @@ const HeroSection = () => {
                 </div>
             </div>
             
-            <div className="col-span-5 flex flex-col justify-center items-center mt-6 md:mt-0 xl:mt-0 ">
-                
-                <div className="rounded-full bg-secondary-300 dark:bg-[#181818] w-[220px] h-[220px] relative ">
-                    <Image src="/images/retro.webp"
-                    alt="hero image"
-                    className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2
-                    rounded-full dark:bg-[#181818] w-[200px] h-[200px] "
-                    width={300}
-                    height={300}
-                    />
-                </div>
-                 
-            </div>
+          
 
           
         </div>
