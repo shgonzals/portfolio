@@ -18,7 +18,7 @@ export default function Home() {
         <meta name="description" content="Portfolio"></meta>
       </Head>
       <Navbar />
-      <section className="container mt-24 mx-auto xl:px-10 px-3 py-12 lg:px-5" id="inicio">
+      <section className="container mt-10 mx-auto xl:px-10 px-3 py-12 lg:px-5" id="inicio">
         <section className="snap-start lg:mt-10 lg:px-12 sm: px-1 ">
           <HeroSection />
         </section>
